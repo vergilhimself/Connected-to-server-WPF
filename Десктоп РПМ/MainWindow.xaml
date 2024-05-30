@@ -1,0 +1,593 @@
+﻿<Window
+    x:Class="Десктоп_РПМ.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="1024"
+    Height="600"
+    MinWidth="1024"
+    MinHeight="600"
+    mc:Ignorable="d">
+    <Window.Resources>
+        <Style x:Key="CornerRadiusButton" TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="{DynamicResource {x:Static SystemColors.WindowBrushKey}}" />
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="KeyboardNavigation.TabNavigation" Value="None" />
+            <Setter Property="HorizontalContentAlignment" Value="Left" />
+            <Setter Property="FocusVisualStyle" Value="{x:Null}" />
+            <Setter Property="AllowDrop" Value="true" />
+            <Setter Property="ScrollViewer.PanningMode" Value="VerticalFirst" />
+            <Setter Property="Stylus.IsFlicksEnabled" Value="False" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border
+                            x:Name="border"
+                            Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}"
+                            CornerRadius="6"
+                            SnapsToDevicePixels="True">
+                            <ScrollViewer
+                                x:Name="PART_ContentHost"
+                                Focusable="false"
+                                HorizontalScrollBarVisibility="Hidden"
+                                VerticalScrollBarVisibility="Hidden" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter TargetName="border" Property="Opacity" Value="0.56" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="search" />
+        <SolidColorBrush x:Key="TextBox.Static.Border" Color="#FFABAdB3" />
+        <SolidColorBrush x:Key="TextBox.MouseOver.Border" Color="#FF7EB4EA" />
+        <SolidColorBrush x:Key="TextBox.Focus.Border" Color="#FF569DE5" />
+        <Style x:Key="CornerRadius" TargetType="{x:Type TextBox}">
+            <Setter Property="Background" Value="{DynamicResource {x:Static SystemColors.WindowBrushKey}}" />
+            <Setter Property="BorderBrush" Value="{StaticResource TextBox.Static.Border}" />
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="KeyboardNavigation.TabNavigation" Value="None" />
+            <Setter Property="HorizontalContentAlignment" Value="Left" />
+            <Setter Property="FocusVisualStyle" Value="{x:Null}" />
+            <Setter Property="AllowDrop" Value="true" />
+            <Setter Property="ScrollViewer.PanningMode" Value="VerticalFirst" />
+            <Setter Property="Stylus.IsFlicksEnabled" Value="False" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type TextBox}">
+                        <Border
+                            x:Name="border"
+                            Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}"
+                            CornerRadius="6"
+                            SnapsToDevicePixels="True">
+                            <ScrollViewer
+                                x:Name="PART_ContentHost"
+                                Focusable="false"
+                                HorizontalScrollBarVisibility="Hidden"
+                                VerticalScrollBarVisibility="Hidden" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter TargetName="border" Property="Opacity" Value="0.56" />
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter TargetName="border" Property="BorderBrush" Value="{StaticResource TextBox.MouseOver.Border}" />
+                            </Trigger>
+                            <Trigger Property="IsKeyboardFocused" Value="true">
+                                <Setter TargetName="border" Property="BorderBrush" Value="{StaticResource TextBox.Focus.Border}" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <MultiTrigger>
+                    <MultiTrigger.Conditions>
+                        <Condition Property="IsInactiveSelectionHighlightEnabled" Value="true" />
+                        <Condition Property="IsSelectionActive" Value="false" />
+                    </MultiTrigger.Conditions>
+                    <Setter Property="SelectionBrush" Value="{DynamicResource {x:Static SystemColors.InactiveSelectionHighlightBrushKey}}" />
+                </MultiTrigger>
+            </Style.Triggers>
+        </Style>
+        <SolidColorBrush x:Key="Background2" Color="Black" />
+        <Style x:Key="FocusVisual">
+            <Setter Property="Control.Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Rectangle
+                            Margin="2"
+                            SnapsToDevicePixels="true"
+                            Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"
+                            StrokeDashArray="1 2"
+                            StrokeThickness="1" />
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <SolidColorBrush x:Key="Button.Static.Background" Color="#FFDDDDDD" />
+        <SolidColorBrush x:Key="Button.Static.Border" Color="#FF707070" />
+        <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFBEE6FD" />
+        <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FF3C7FB1" />
+        <SolidColorBrush x:Key="Button.Pressed.Background" Color="#FFC4E5F6" />
+        <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF2C628B" />
+        <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4" />
+        <SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFADB2B5" />
+        <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FF838383" />
+
+        <Style x:Key="DefaultButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}" />
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background}" />
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}" />
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="HorizontalContentAlignment" Value="Center" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+            <Setter Property="Padding" Value="1" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border
+                            x:Name="border"
+                            Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}"
+                            SnapsToDevicePixels="true">
+                            <ContentPresenter
+                                x:Name="contentPresenter"
+                                Margin="{TemplateBinding Padding}"
+                                HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                                Focusable="False"
+                                RecognizesAccessKey="True"
+                                SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="true">
+                                <Setter TargetName="border" Property="BorderBrush" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}" />
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter TargetName="border" Property="Background" Value="{StaticResource Button.Disabled.Background}" />
+                                <Setter TargetName="border" Property="BorderBrush" Value="{StaticResource Button.Disabled.Border}" />
+                                <Setter TargetName="contentPresenter" Property="TextElement.Foreground" Value="{StaticResource Button.Disabled.Foreground}" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <DockPanel Background="#FF828282" LastChildFill="True">
+        <DockPanel
+            Height="100"
+            Background="#FFB5B5B5"
+            DockPanel.Dock="Top"
+            LastChildFill="True">
+            <Border
+                Width="110"
+                Height="52"
+                Margin="10,0,10,0"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Background="#FF828282"
+                BorderBrush="Black"
+                BorderThickness="2"
+                CornerRadius="8">
+                <Button
+                    Width="101"
+                    Height="48"
+                    Padding="0,0,0,0"
+                    Background="#FF828282"
+                    BorderBrush="{x:Null}"
+                    Click="MainPage"
+                    Cursor="Hand"
+                    DockPanel.Dock="Left"
+                    Style="{DynamicResource DefaultButtonStyle}">
+                    <Button.Content>
+                        <Path
+                            Width="46.1"
+                            Height="46.1"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Data="M5388 7339 c-19 -7 -32 -25 -49 -67 -49 -123 -171 -361 -221 -430 -79 -110 -217 -261 -241 -266 -12 -2 -74 -13 -137
+                            -25 -104 -18 -234 -44 -498 -101 -142 -30 -206 -33 -302 -15 -290 53 -509 85 -815 117 -128 13 -602 17 -672 6 -25 -4 -45
+                            -3 -49 3 -7 12 -134 6 -474 -22 -241 -20 -366 -37 -605 -83 -66 -13 -165 -32 -219 -42 -152 -28 -186 -67 -186 -214 l0 -80
+                            -32 0 c-56 0 -381 -71 -433 -94 -67 -30 -109 -75 -134 -142 l-21 -55 0 -2329 c0 -1729 3 -2337 12 -2362 6 -18 27 -56 46 -85
+                            27 -41 44 -55 85 -72 75 -29 119 -35 179 -21 29 6 114 20 188 30 74 10 239 35 366 55 l231 37 82 -83 c46 -46 90 -97 98 -114
+                            9 -16 30 -48 48 -70 45 -56 90 -134 121 -206 14 -34 32 -71 39 -83 8 -12 24 -48 36 -81 40 -110 88 -149 167 -137 37 5 96 66
+                            107 110 4 15 22 58 40 97 18 38 36 81 40 95 17 59 182 295 265 379 l85 86 235 -12 c690 -34 805 -43 1040 -76 247 -34 289 -32
+                            709 43 461 82 780 104 1399 97 386 -4 500 -9 657 -26 251 -29 593 -81 891 -137 91 -17 92 -17 160 5 84 28 127 67 154 139 21
+                            54 21 66 21 2391 -1 1677 -4 2347 -12 2371 -6 19 -15 47 -21 62 -10 26 -87 84 -143 106 -43 17 -368 82 -410 82 l-35 0 0 83
+                            c0 170 -18 187 -240 221 -47 8 -168 30 -270 49 -249 48 -456 83 -565 96 l-90 11 -88 92 c-48 51 -97 111 -108 133 -12 22 -37
+                            57 -55 78 -19 20 -34 41 -34 47 0 5 -13 31 -29 58 -16 27 -32 59 -36 72 -4 13 -22 55 -40 94 -18 39 -42 92 -53 118 -30 70
+                            -103 96 -184 67z m106 -498 c36 -77 164 -258 243 -342 l42 -45 -50 -49 c-27 -26 -59 -65 -71 -86 -12 -22 -25 -39 -29 -39
+                            -9 0 -94 -128 -134 -203 -17 -33 -35 -59 -39 -58 -9 0 -77 108 -108 171 -12 24 -39 61 -60 82 -21 21 -38 41 -38 44 0 8
+                            -51 71 -85 104 -14 14 -25 30 -25 34 0 8 36 53 94 116 26 30 126 166 126 173 0 2 15 29 33 58 70 115 66 114 101 40z m-3049
+                            -529 c12 -9 14 -1042 2 -1042 -5 0 -56 39 -113 88 -124 102 -138 111 -182 112 -42 0 -66 -12 -124 -66 -26 -24 -51 -44 -55
+                            -44 -5 0 -30 -20 -57 -45 -27 -25 -53 -45 -58 -45 -4 0 -7 226 -6 503 l3 502 105 6 c219 13 455 31 459 35 6 6 15 5 26 -4z
+                            m450 -6 c55 -4 147 -11 205 -16 58 -5 164 -14 235 -20 126 -10 455 -60 544 -82 l43 -11 -6 -676 c-4 -372 -8 -741 -11 -821
+                            -3 -80 -7 -386 -10 -680 -9 -967 -25 -1943 -31 -1949 -2 -3 -75 5 -162 17 -237 33 -340 41 -652 52 -322 11 -849 -1 -1120
+                            -26 -302 -28 -462 -40 -715 -56 l-40 -3 0 2057 c0 1412 3 2060 10 2067 12 12 45 20 255 60 l145 28 5 -658 c5 -639 6 -658
+                            25 -679 28 -31 69 -50 107 -50 41 0 106 41 215 135 44 39 100 86 123 105 23 19 52 43 63 53 28 24 38 22 78 -19 18 -19 55
+                            -49 82 -66 26 -16 47 -33 47 -37 0 -4 44 -43 97 -86 88 -71 103 -79 148 -83 46 -4 53 -1 90 32 l40 37 5 687 c3 378 7 688
+                            8 689 6 5 49 10 62 7 8 -1 60 -5 115 -8z m2133 -117 c17 -24 40 -53 51 -64 27 -29 119 -173 127 -198 4 -12 28 -62 53 -112
+                            25 -49 59 -120 74 -157 30 -71 55 -95 103 -98 51 -4 62 -1 92 25 26 21 72 97 72 117 0 4 15 39 33 80 19 40 39 87 46 103
+                            35 84 204 317 289 399 l40 38 129 -20 c70 -12 155 -24 188 -27 63 -7 385 -64 520 -93 l80 -18 5 -1138 5 -1138 32 -29 c56
+                            -49 121 -51 178 -5 l30 24 3 992 2 993 38 -7 c20 -3 96 -15 167 -27 72 -11 138 -22 148 -25 16 -5 17 -123 17 -2300 0 -1829
+                            -3 -2294 -12 -2294 -7 0 -56 9 -108 21 -129 27 -248 47 -350 59 -47 5 -131 16 -188 25 -118 17 -304 38 -507 57 -178 17 -972
+                            16 -1170 -1 -195 -17 -403 -40 -515 -57 -52 -8 -138 -19 -190 -25 -52 -5 -174 -26 -270 -45 -181 -37 -193 -37 -323 -10 -132
+                            27 -320 45 -582 55 -532 21 -781 34 -796 40 -9 3 -54 47 -100 97 -125 136 -290 406 -264 432 4 4 259 7 568 7 517 0 576 -2
+                            742 -23 99 -12 232 -31 295 -43 142 -27 208 -30 285 -13 342 75 576 104 1025 125 327 15 1050 -4 1199 -32 31 -5 93 -14 139
+                            -19 118 -13 292 -44 478 -86 l162 -37 38 19 c77 38 74 11 75 725 1 576 0 638 -16 676 -37 92 -160 98 -214 10 -21 -34 -21
+                            -43 -21 -582 l0 -548 -52 7 c-51 6 -111 17 -299 50 -108 20 -364 51 -539 67 -221 20 -1008 17 -1215 -4 -224 -23 -369 -42
+                            -544 -73 -79 -14 -145 -24 -146 -22 -2 2 0 210 4 463 5 253 9 696 10 984 1 288 3 526 5 530 2 3 7 474 10 1046 4 572 9
+                            1052 12 1067 3 16 13 28 27 32 78 19 378 79 457 91 52 8 127 21 165 28 l70 13 50 -42 c28 -22 65 -61 83 -85z m-4108 -516
+                            c0 -104 0 -1003 0 -1999 0 -1279 3 -1820 10 -1840 15 -40 58 -82 90 -89 15 -3 60 1 101 9 100 20 210 33 419 51 96 9 185
+                            18 198 20 12 3 22 1 22 -4 0 -21 -43 -106 -85 -169 -97 -146 -132 -192 -191 -251 l-62 -61 -153 -24 c-85 -13 -185 -27
+                            -224 -31 -38 -3 -161 -22 -272 -41 -110 -19 -206 -34 -212 -34 -7 0 -10 670 -10 2279 0 2136 1 2281 17 2300 13 16 42
+                            24 127 36 61 9 126 20 145 25 19 4 45 8 58 9 l22 1 0 -187z m1128 -4154 c13 -25 41 -68 64 -95 22 -27 51 -66 64 -86
+                            13 -21 44 -56 69 -79 25 -23 45 -46 45 -52 0 -6 -20 -32 -44 -57 -25 -25 -60 -66 -78 -91 -18 -25 -49 -67 -68 -93 -19
+                            -26 -54 -82 -76 -124 -23 -42 -46 -78 -50 -79 -9 -3 -28 27 -86 137 -16 30 -42 68 -56 86 -15 17 -43 53 -62 78 -19 26
+                            -54 68 -78 93 l-43 46 33 35 c18 20 38 41 44 47 23 22 130 168 149 203 11 20 38 65 59 99 l39 63 26 -43 c14 -24 36 -63 49 -88z"
+                            Fill="{StaticResource Background2}"
+                            RenderTransformOrigin="0.5,0.5"
+                            Stretch="Fill">
+                            <Path.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform ScaleX="-1" ScaleY="-1" />
+                                    <SkewTransform />
+                                    <RotateTransform />
+                                    <TranslateTransform />
+                                </TransformGroup>
+                            </Path.RenderTransform>
+                        </Path>
+                    </Button.Content>
+                </Button>
+            </Border>
+
+            <StackPanel Margin="5,10,5,0" DockPanel.Dock="Right">
+                <Button
+                    Width="50"
+                    Height="50"
+                    Background="#FFB5B5B5"
+                    BorderBrush="{x:Null}"
+                    Click="Button_Click"
+                    Cursor="Hand"
+                    Foreground="{x:Null}"
+                    Style="{DynamicResource DefaultButtonStyle}">
+                    <Button.Content>
+                        <Path
+                            Width="46.1"
+                            Height="46.1"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Data="M1262 4830 c-319 -40 -586 -171 -812 -399 -203 -204 -325 -420 -395 -701 -124 -487 -34 -967 264 -1418 191 -289 438
+                            -554 891 -958 288 -257 1167 -1007 1210 -1032 40 -24 55 -27 140 -27 85 0 100 3 140 27 43 25 924 776 1210 1032 455 406 700
+                            670 891 958 298 451 388 931 264 1418 -70 281 -192 497 -395 701 -202 203 -418 320 -701 380 -142 30 -404 33 -528 5 -346
+                            -75 -611 -248 -853 -556 l-28 -35 -27 35 c-239 302 -500 475 -833 551 -99 23 -327 33 -438 19z m334 -305 c284 -50 529 -214
+                            723 -485 33 -47 74 -103 90 -126 74 -104 228 -104 302 0 16 23 57 79 90 126 265 370 634 544 1036 489 446 -61 794 -373 927
+                            -832 105 -363 59 -744 -132 -1087 -160 -287 -427 -588 -892 -1005 -225 -201 -1171 -1015 -1180 -1015 -10 0 -952 811 -1180
+                            1015 -715 641 -997 1041 -1065 1510 -44 303 19 629 172 886 230 387 678 599 1109 524z"
+                            Fill="{StaticResource Background2}"
+                            RenderTransformOrigin="0.5,0.5"
+                            Stretch="Fill">
+                            <Path.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform ScaleX="-1" ScaleY="-1" />
+                                    <SkewTransform />
+                                    <RotateTransform />
+                                    <TranslateTransform />
+                                </TransformGroup>
+                            </Path.RenderTransform>
+                        </Path>
+                    </Button.Content>
+                </Button>
+                <Label
+                    FontFamily="Comic Sans MS"
+                    FontSize="14"
+                    FontWeight="Bold"
+                    Foreground="#FF00680A">
+                    Любимое
+                </Label>
+            </StackPanel>
+
+            <Border
+                Height="35"
+                VerticalAlignment="Center"
+                Background="#FFFFA629"
+                BorderBrush="#FFFFA629"
+                BorderThickness="0"
+                CornerRadius="8">
+                <DockPanel
+                    x:Name="search"
+                    Height="35"
+                    LastChildFill="True">
+                    <Border
+                        Width="40"
+                        Height="30"
+                        Margin="1,0,2,0"
+                        HorizontalAlignment="Center"
+                        Background="#FF00680A"
+                        BorderBrush="#FF00680A"
+                        BorderThickness="0"
+                        CornerRadius="6"
+                        DockPanel.Dock="Right">
+                        <Button
+                            Width="39"
+                            Height="28"
+                            VerticalAlignment="Center"
+                            Background="#FF00680A"
+                            BorderBrush="{x:Null}"
+                            Click="SearchButton_Click"
+                            ClickMode="Release"
+                            Cursor="Hand"
+                            Style="{DynamicResource DefaultButtonStyle}">
+                            <Path
+                                Width="20"
+                                Height="20"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Data="M2890 5114 c-404 -30 -820 -192 -1140 -445 -149 -117 -344 -332 -448 -494 -323 -499 -413 -1077 -258 -1659 33
+                                -125 94 -277 167 -414 35 -68 59 -126 59 -145 0 -28 -60 -92 -568 -602 -472 -472 -576 -582 -611 -641 -82 -140 -107
+                                -265 -77 -383 20 -77 44 -119 109 -188 159 -170 361 -187 591 -52 59 35 169 139 641 611 510 508 574 568 602 568 19
+                                0 77 -24 145 -59 290 -153 566 -227 883 -238 440 -15 823 91 1190 329 162 104 377 299 494 448 230 291 376 637 432
+                                1025 19 127 16 443 -5 574 -62 393 -216 735 -464 1031 -321 385 -778 639 -1282 715 -104 16 -360 26 -460 19z m405
+                                -559 c230 -36 463 -134 657 -276 105 -78 266 -241 342 -347 383 -538 373 -1282 -24 -1810 -300 -399 -793 -632 -1284
+                                -609 -402 19 -748 170 -1026 447 -603 604 -599 1579 11 2177 353 346 826 495 1324 418z M2987 4279 c-463 -51 -866
+                                -340 -1071 -769 -55 -114 -48 -205 22 -276 62 -62 169 -82 240 -44 62 33 78 51 137 159 71 131 128 205 215 280 267
+                                230 614 289 953 163 94 -35 170 -25 234 31 88 77 98 222 20 305 -45 48 -194 105 -354 136 -106 20 -287 27 -396 15z"
+                                Fill="White"
+                                RenderTransformOrigin="0.5,0.5"
+                                Stretch="Fill">
+                                <Path.RenderTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform ScaleX="1" ScaleY="-1" />
+                                        <SkewTransform />
+                                        <RotateTransform />
+                                        <TranslateTransform />
+                                    </TransformGroup>
+                                </Path.RenderTransform>
+                            </Path>
+                        </Button>
+                    </Border>
+                    <TextBox
+                        Name="searchTextbox"
+                        Height="30"
+                        Margin="2,0,0,0"
+                        VerticalAlignment="Center"
+                        BorderBrush="#FFCCCCCC"
+                        FontFamily="Comic Sans MS"
+                        FontSize="16"
+                        MaxLines="1"
+                        Style="{DynamicResource CornerRadius}"
+                        TextChanged="TextBox_TextChanged" />
+                </DockPanel>
+            </Border>
+        </DockPanel>
+        <DockPanel
+            Height="62"
+            Background="#FFFFA629"
+            DockPanel.Dock="Top"
+            LastChildFill="True">
+            <Menu
+                Width="110"
+                Height="30"
+                Margin="10,0,10,0"
+                DockPanel.Dock="Left">
+                <Menu.Background>
+                    <ImageBrush ImageSource="/menu3.png" />
+                </Menu.Background>
+                <MenuItem
+                    Width="111"
+                    Height="30"
+                    Padding="0,0,0,0"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Background="{x:Null}"
+                    BorderBrush="{x:Null}"
+                    Cursor="Hand"
+                    FontFamily="Comic Sans MS"
+                    FontStretch="Medium"
+                    FontWeight="Bold"
+                    Foreground="Black"
+                    Header="    Каталог">
+                    <MenuItem Click="ShowGenreBooks_Click" Header="Сай-фай" />
+                    <MenuItem Click="ShowGenreBooks_Click" Header="Фентези" />
+                    <MenuItem Click="ShowGenreBooks_Click" Header="Приключения" />
+                    <MenuItem Click="ShowGenreBooks_Click" Header="Лит РПГ" />
+                    <MenuItem Click="ShowGenreBooks_Click" Header="Романтика" />
+                    <MenuItem Click="ShowGenreBooks_Click" Header="Триллер" />
+                    <MenuItem Click="ShowGenreBooks_Click" Header="Комедия" />
+                    <MenuItem Click="ShowGenreBooks_Click" Header="Трагедия" />
+                    <MenuItem Click="ShowGenreBooks_Click" Header="Роман" />
+                </MenuItem>
+            </Menu>
+            <TextBox
+                x:Name="navigate"
+                Height="30"
+                Margin="0,0,10,0"
+                BorderBrush="#FFCC8521"
+                FontFamily="Comic Sans MS"
+                FontSize="16"
+                IsReadOnly="True"
+                IsUndoEnabled="False"
+                MaxLines="1"
+                Style="{DynamicResource CornerRadius}"
+                Text=" &gt; Главная"
+                TextChanged="TextBox_TextChanged" />
+        </DockPanel>
+        <DockPanel
+            Height="68"
+            Background="#FFFFA629"
+            DockPanel.Dock="Bottom"
+            LastChildFill="True">
+            <DockPanel
+                Height="44"
+                MinWidth="370"
+                DockPanel.Dock="Right"
+                LastChildFill="False">
+                <Border
+                    Width="40"
+                    Height="40"
+                    Margin="100,0,10,0"
+                    HorizontalAlignment="Center"
+                    Background="RoyalBlue"
+                    BorderBrush="RoyalBlue"
+                    BorderThickness="0"
+                    CornerRadius="6">
+                    <Button
+                        Width="40"
+                        Height="36"
+                        Background="RoyalBlue"
+                        BorderBrush="{x:Null}"
+                        Click="ToTheSource"
+                        Cursor="Hand"
+                        Foreground="{x:Null}"
+                        Style="{DynamicResource DefaultButtonStyle}">
+                        <Path
+                            Width="20"
+                            Height="15"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Data="M1255 2540 c-67 -7 -109 -26 -143 -63 -34 -36 -25 -58 32 -79 58 -20 93 -51 114 -98 24 -57 30 -402 8 -510 -10 -46 -22 -92
+                            -27 -101 -14 -26 -44 -32 -77 -15 -93 48 -309 386 -422 659 -23 56 -42 85 -68 105 l-35 27 -291 0 -291 0 -14 -29 c-18 -39 -10 -64
+                            98 -293 279 -595 577 -1018 851 -1212 204 -144 400 -204 675 -205 128 -1 155 2 178 17 41 26 57 59 68 132 27 191 61 265 121 265 48
+                            0 85 -30 241 -193 114 -120 159 -161 209 -187 62 -34 64 -34 248 -43 205 -9 389 -4 423 14 70 36 91 91 59 160 -35 80 -143 212 -324
+                            396 -238 242 -238 204 9 538 242 328 295 414 324 529 10 39 9 50 -5 71 -28 42 -68 46 -398 43 -292 -3 -308 -4 -327 -23 -11 -11 -45
+                            -78 -76 -148 -93 -217 -203 -397 -332 -545 -30 -34 -64 -67 -75 -73 -33 -18 -68 -2 -86 39 -15 32 -17 80 -17 377 0 315 -1 342 -19
+                            371 -32 53 -64 65 -204 75 -146 10 -340 9 -427 -1z"
+                            Fill="White"
+                            RenderTransformOrigin="0.5,0.5"
+                            Stretch="Fill">
+                            <Path.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform ScaleX="1" ScaleY="-1" />
+                                    <SkewTransform />
+                                    <RotateTransform />
+                                    <TranslateTransform />
+                                </TransformGroup>
+                            </Path.RenderTransform>
+                        </Path>
+                    </Button>
+                </Border>
+                <Border
+                    Width="40"
+                    Height="40"
+                    Margin="100,0,10,0"
+                    HorizontalAlignment="Center"
+                    Background="#FF1C8ADB"
+                    BorderBrush="#FF1C8ADB"
+                    BorderThickness="0"
+                    CornerRadius="6">
+                    <Button
+                        Width="38"
+                        Height="39"
+                        Background="#FF1C8ADB"
+                        BorderBrush="{x:Null}"
+                        Click="ToTheSource"
+                        Cursor="Hand"
+                        DockPanel.Dock="Right"
+                        Foreground="{x:Null}"
+                        Style="{DynamicResource DefaultButtonStyle}">
+                        <Path
+                            Width="20"
+                            Height="20"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Data="M2985 2850 c-27 -10 -275 -100 -550 -199 -2126 -766 -2360 -851 -2379 -870 -29 -29 -28 -93 1 -123 16 -16 121
+                            -48 409 -128 l387 -106 142 -418 c160 -470 158 -466 248 -474 64 -5 46 -19 309 231 93 88 174 157 180 154 7 -2 184
+                            -121 393 -263 380 -258 380 -258 440 -262 50 -3 66 0 95 20 19 13 42 39 51 58 9 19 130 539 269 1156 l253 1121 -19
+                            39 c-39 80 -124 104 -229 64z m-315 -449 c0 -12 -240 -214 -694 -585 -609 -498 -695 -571 -700 -599 -3 -18 -15 -120
+                            -27 -227 -13 -121 -27 -200 -35 -209 -11 -13 -14 -13 -19 0 -3 8 -54 162 -114 342 -85 253 -108 334 -101 351 5 13 30
+                            36 57 52 26 15 396 227 821 471 646 370 777 441 793 433 10 -6 19 -19 19 -29z"
+                            Fill="White"
+                            RenderTransformOrigin="0.5,0.5"
+                            Stretch="Fill">
+                            <Path.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform ScaleX="1" ScaleY="-1" />
+                                    <SkewTransform />
+                                    <RotateTransform />
+                                    <TranslateTransform />
+                                </TransformGroup>
+                            </Path.RenderTransform>
+                        </Path>
+                    </Button>
+                </Border>
+            </DockPanel>
+            <StackPanel
+                Height="44"
+                MinWidth="655"
+                Orientation="Horizontal">
+                <TextBox
+                    Width="659"
+                    Background="{x:Null}"
+                    BorderBrush="{x:Null}"
+                    FontFamily="Comic Sans MS"
+                    FontSize="14"
+                    Foreground="#FF00680A"
+                    IsReadOnly="True"
+                    MaxLines="2"
+                    SelectionBrush="{x:Null}"
+                    TextWrapping="Wrap">
+                    У нас вы найдете бесконечный мир книг, где каждая страница скрывает свою историю. Дополните свое путешествие в мир знаний и откройте для себя новые горизонты.
+                </TextBox>
+            </StackPanel>
+        </DockPanel>
+        <Grid
+            MinWidth="1024"
+            MinHeight="354"
+            MaxWidth="1024"
+            Background="#FFB5B5B5">
+            <ScrollViewer
+                Name="favoritecontent"
+                MinWidth="1024"
+                HorizontalScrollBarVisibility="Hidden"
+                VerticalScrollBarVisibility="Hidden"
+                Visibility="Visible">
+                <StackPanel Name="favorite" />
+            </ScrollViewer>
+            <ScrollViewer
+                Name="maincontent"
+                MinWidth="1024"
+                HorizontalScrollBarVisibility="Hidden"
+                VerticalScrollBarVisibility="Hidden"
+                Visibility="Visible">
+                <StackPanel>
+                    <Button
+                        Width="1024"
+                        Height="354"
+                        Margin="0,0,0,10"
+                        Cursor=""
+                        FontFamily="Comic Sans MS"
+                        FontSize="36"
+                        Foreground="#FFFFA629"
+                        Style="{DynamicResource DefaultButtonStyle}">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/im1.1.jpg" Stretch="Fill" />
+                        </Button.Background>
+                        <Button.Content>
+                            Проживи сотни жизней в мире книг
+                        </Button.Content>
+                    </Button>
+                    <WrapPanel Margin="0,0,0,10" Orientation="Horizontal" Name="mainpage" MaxWidth="1024" Height="1024">
+
+                    </WrapPanel>
+                    <Rectangle Height="30" />
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+    </DockPanel>
+</Window>

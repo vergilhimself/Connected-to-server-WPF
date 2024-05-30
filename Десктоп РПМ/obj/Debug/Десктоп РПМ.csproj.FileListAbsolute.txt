@@ -1,0 +1,197 @@
+D:\Учеба\РПМ\Десктоп РПМ\bin\Debug\Десктоп РПМ.exe.config
+D:\Учеба\РПМ\Десктоп РПМ\bin\Debug\Десктоп РПМ.exe
+D:\Учеба\РПМ\Десктоп РПМ\bin\Debug\Десктоп РПМ.pdb
+D:\Учеба\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.AssemblyReference.cache
+D:\Учеба\РПМ\Десктоп РПМ\obj\Debug\MainWindow.g.cs
+D:\Учеба\РПМ\Десктоп РПМ\obj\Debug\App.g.cs
+D:\Учеба\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ_MarkupCompile.cache
+D:\Учеба\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ_MarkupCompile.lref
+D:\Учеба\РПМ\Десктоп РПМ\obj\Debug\MainWindow.baml
+D:\Учеба\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.g.resources
+D:\Учеба\РПМ\Десктоп РПМ\obj\Debug\Десктоп_РПМ.Properties.Resources.resources
+D:\Учеба\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.GenerateResource.cache
+D:\Учеба\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.CoreCompileInputs.cache
+D:\Учеба\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.exe
+D:\Учеба\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.pdb
+C:\Users\Mr_Faktum\Desktop\РПМ\Десктоп РПМ\bin\Debug\Десктоп РПМ.exe.config
+C:\Users\Mr_Faktum\Desktop\РПМ\Десктоп РПМ\bin\Debug\Десктоп РПМ.exe
+C:\Users\Mr_Faktum\Desktop\РПМ\Десктоп РПМ\bin\Debug\Десктоп РПМ.pdb
+C:\Users\Mr_Faktum\Desktop\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.AssemblyReference.cache
+C:\Users\Mr_Faktum\Desktop\РПМ\Десктоп РПМ\obj\Debug\MainWindow.g.cs
+C:\Users\Mr_Faktum\Desktop\РПМ\Десктоп РПМ\obj\Debug\App.g.cs
+C:\Users\Mr_Faktum\Desktop\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ_MarkupCompile.cache
+C:\Users\Mr_Faktum\Desktop\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ_MarkupCompile.lref
+C:\Users\Mr_Faktum\Desktop\РПМ\Десктоп РПМ\obj\Debug\MainWindow.baml
+C:\Users\Mr_Faktum\Desktop\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.g.resources
+C:\Users\Mr_Faktum\Desktop\РПМ\Десктоп РПМ\obj\Debug\Десктоп_РПМ.Properties.Resources.resources
+C:\Users\Mr_Faktum\Desktop\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.GenerateResource.cache
+C:\Users\Mr_Faktum\Desktop\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.CoreCompileInputs.cache
+C:\Users\Mr_Faktum\Desktop\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.exe
+C:\Users\Mr_Faktum\Desktop\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.pdb
+C:\Users\sunsp\Desktop\РПМ\Десктоп РПМ\bin\Debug\Десктоп РПМ.exe.config
+C:\Users\sunsp\Desktop\РПМ\Десктоп РПМ\bin\Debug\Десктоп РПМ.exe
+C:\Users\sunsp\Desktop\РПМ\Десктоп РПМ\bin\Debug\Десктоп РПМ.pdb
+C:\Users\sunsp\Desktop\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.AssemblyReference.cache
+C:\Users\sunsp\Desktop\РПМ\Десктоп РПМ\obj\Debug\MainWindow.g.cs
+C:\Users\sunsp\Desktop\РПМ\Десктоп РПМ\obj\Debug\App.g.cs
+C:\Users\sunsp\Desktop\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ_MarkupCompile.cache
+C:\Users\sunsp\Desktop\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ_MarkupCompile.lref
+C:\Users\sunsp\Desktop\РПМ\Десктоп РПМ\obj\Debug\MainWindow.baml
+C:\Users\sunsp\Desktop\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.g.resources
+C:\Users\sunsp\Desktop\РПМ\Десктоп РПМ\obj\Debug\Десктоп_РПМ.Properties.Resources.resources
+C:\Users\sunsp\Desktop\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.GenerateResource.cache
+C:\Users\sunsp\Desktop\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.CoreCompileInputs.cache
+C:\Users\sunsp\Desktop\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.exe
+C:\Users\sunsp\Desktop\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.pdb
+C:\Users\Administrator\Desktop\Работа\РПМ\Десктоп РПМ\bin\Debug\Десктоп РПМ.exe.config
+C:\Users\Administrator\Desktop\Работа\РПМ\Десктоп РПМ\bin\Debug\Десктоп РПМ.exe
+C:\Users\Administrator\Desktop\Работа\РПМ\Десктоп РПМ\bin\Debug\Десктоп РПМ.pdb
+C:\Users\Administrator\Desktop\Работа\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Работа\РПМ\Десктоп РПМ\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\Desktop\Работа\РПМ\Десктоп РПМ\obj\Debug\Книга.g.cs
+C:\Users\Administrator\Desktop\Работа\РПМ\Десктоп РПМ\obj\Debug\Любимые_книги.g.cs
+C:\Users\Administrator\Desktop\Работа\РПМ\Десктоп РПМ\obj\Debug\App.g.cs
+C:\Users\Administrator\Desktop\Работа\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ_MarkupCompile.cache
+C:\Users\Administrator\Desktop\Работа\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ_MarkupCompile.lref
+C:\Users\Administrator\Desktop\Работа\РПМ\Десктоп РПМ\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Desktop\Работа\РПМ\Десктоп РПМ\obj\Debug\Книга.baml
+C:\Users\Administrator\Desktop\Работа\РПМ\Десктоп РПМ\obj\Debug\Любимые_книги.baml
+C:\Users\Administrator\Desktop\Работа\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.g.resources
+C:\Users\Administrator\Desktop\Работа\РПМ\Десктоп РПМ\obj\Debug\Десктоп_РПМ.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Работа\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Работа\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Работа\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.exe
+C:\Users\Administrator\Desktop\Работа\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.pdb
+C:\Users\Administrator\Desktop\Работа\РПМ\Десктоп РПМ\obj\Debug\Профиль.g.cs
+C:\Users\Administrator\Desktop\Работа\РПМ\Десктоп РПМ\obj\Debug\Профиль.baml
+C:\Users\Administrator\Desktop\Работа\РПМ\Десктоп РПМ\obj\Debug\Window_Resources1.g.cs
+C:\Users\Administrator\Desktop\Работа\РПМ\Десктоп РПМ\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Administrator\Desktop\Работа\РПМ\Десктоп РПМ\obj\Debug\UserControl1.g.cs
+C:\Users\Administrator\Desktop\Учеба\РПМ\Саша без БД\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Учеба\РПМ\Саша без БД\РПМ\Десктоп РПМ\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\Desktop\Учеба\РПМ\Саша без БД\РПМ\Десктоп РПМ\obj\Debug\Книга.g.cs
+C:\Users\Administrator\Desktop\Учеба\РПМ\Саша без БД\РПМ\Десктоп РПМ\obj\Debug\Любимые_книги.g.cs
+C:\Users\Administrator\Desktop\Учеба\РПМ\Саша без БД\РПМ\Десктоп РПМ\obj\Debug\App.g.cs
+C:\Users\Administrator\Desktop\Учеба\РПМ\Саша без БД\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ_MarkupCompile.cache
+C:\Users\Administrator\Desktop\Учеба\РПМ\Саша без БД\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ_MarkupCompile.lref
+C:\Users\Administrator\Desktop\Учеба\РПМ\Саша без БД\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.exe
+C:\Users\Administrator\Desktop\Учеба\РПМ\Саша без БД\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.pdb
+C:\Users\Administrator\Desktop\Учеба\РПМ\Саша без БД\РПМ\Десктоп РПМ\obj\Debug\Профиль.g.cs
+C:\Users\Administrator\Desktop\Учеба\РПМ\Саша без БД\РПМ\Десктоп РПМ\bin\Debug\Десктоп РПМ.exe.config
+C:\Users\Administrator\Desktop\Учеба\РПМ\Саша без БД\РПМ\Десктоп РПМ\bin\Debug\Десктоп РПМ.exe
+C:\Users\Administrator\Desktop\Учеба\РПМ\Саша без БД\РПМ\Десктоп РПМ\bin\Debug\Десктоп РПМ.pdb
+C:\Users\Administrator\Desktop\Учеба\РПМ\Саша без БД\РПМ\Десктоп РПМ\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\Учеба\РПМ\Саша без БД\РПМ\Десктоп РПМ\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\Учеба\РПМ\Саша без БД\РПМ\Десктоп РПМ\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\Учеба\РПМ\Саша без БД\РПМ\Десктоп РПМ\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\Учеба\РПМ\Саша без БД\РПМ\Десктоп РПМ\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Desktop\Учеба\РПМ\Саша без БД\РПМ\Десктоп РПМ\obj\Debug\Книга.baml
+C:\Users\Administrator\Desktop\Учеба\РПМ\Саша без БД\РПМ\Десктоп РПМ\obj\Debug\Любимые_книги.baml
+C:\Users\Administrator\Desktop\Учеба\РПМ\Саша без БД\РПМ\Десктоп РПМ\obj\Debug\Профиль.baml
+C:\Users\Administrator\Desktop\Учеба\РПМ\Саша без БД\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.g.resources
+C:\Users\Administrator\Desktop\Учеба\РПМ\Саша без БД\РПМ\Десктоп РПМ\obj\Debug\Десктоп_РПМ.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Учеба\РПМ\Саша без БД\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Учеба\РПМ\Саша без БД\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Учеба\РПМ\Саша без БД\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.CopyComplete
+D:\Мусор\Саша с БД\РПМ\Десктоп РПМ\bin\Debug\Десктоп РПМ.exe.config
+D:\Мусор\Саша с БД\РПМ\Десктоп РПМ\bin\Debug\Десктоп РПМ.exe
+D:\Мусор\Саша с БД\РПМ\Десктоп РПМ\bin\Debug\Десктоп РПМ.pdb
+D:\Мусор\Саша с БД\РПМ\Десктоп РПМ\bin\Debug\EntityFramework.dll
+D:\Мусор\Саша с БД\РПМ\Десктоп РПМ\bin\Debug\EntityFramework.SqlServer.dll
+D:\Мусор\Саша с БД\РПМ\Десктоп РПМ\bin\Debug\EntityFramework.xml
+D:\Мусор\Саша с БД\РПМ\Десктоп РПМ\bin\Debug\EntityFramework.SqlServer.xml
+D:\Мусор\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.AssemblyReference.cache
+D:\Мусор\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\MainWindow.g.cs
+D:\Мусор\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Книга.g.cs
+D:\Мусор\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Любимые_книги.g.cs
+D:\Мусор\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Профиль.g.cs
+D:\Мусор\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\App.g.cs
+D:\Мусор\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ_MarkupCompile.cache
+D:\Мусор\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ_MarkupCompile.lref
+D:\Мусор\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\MainWindow.baml
+D:\Мусор\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Книга.baml
+D:\Мусор\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Любимые_книги.baml
+D:\Мусор\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Профиль.baml
+D:\Мусор\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.g.resources
+D:\Мусор\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Десктоп_РПМ.Properties.Resources.resources
+D:\Мусор\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.GenerateResource.cache
+D:\Мусор\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.CoreCompileInputs.cache
+D:\Мусор\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.CopyComplete
+D:\Мусор\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.exe
+D:\Мусор\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.pdb
+C:\Users\Administrator\Desktop\Саша с БД\РПМ\Десктоп РПМ\bin\Debug\Десктоп РПМ.exe.config
+C:\Users\Administrator\Desktop\Саша с БД\РПМ\Десктоп РПМ\bin\Debug\Десктоп РПМ.exe
+C:\Users\Administrator\Desktop\Саша с БД\РПМ\Десктоп РПМ\bin\Debug\Десктоп РПМ.pdb
+C:\Users\Administrator\Desktop\Саша с БД\РПМ\Десктоп РПМ\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\Саша с БД\РПМ\Десктоп РПМ\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\Саша с БД\РПМ\Десктоп РПМ\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\Саша с БД\РПМ\Десктоп РПМ\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\Desktop\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Книга.g.cs
+C:\Users\Administrator\Desktop\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Любимые_книги.g.cs
+C:\Users\Administrator\Desktop\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Профиль.g.cs
+C:\Users\Administrator\Desktop\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\App.g.cs
+C:\Users\Administrator\Desktop\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ_MarkupCompile.cache
+C:\Users\Administrator\Desktop\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ_MarkupCompile.lref
+C:\Users\Administrator\Desktop\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Desktop\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Книга.baml
+C:\Users\Administrator\Desktop\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Любимые_книги.baml
+C:\Users\Administrator\Desktop\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Профиль.baml
+C:\Users\Administrator\Desktop\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.g.resources
+C:\Users\Administrator\Desktop\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Десктоп_РПМ.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.CopyComplete
+C:\Users\Administrator\Desktop\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.exe
+C:\Users\Administrator\Desktop\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.pdb
+C:\Users\Administrator\Desktop\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Vk&Tg.g.cs
+C:\Users\Administrator\Desktop\Саша с БД\РПМ\Десктоп РПМ\obj\Debug\Vk&Tg.baml
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\bin\Debug\Десктоп РПМ.exe.config
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\bin\Debug\Десктоп РПМ.exe
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\bin\Debug\Десктоп РПМ.pdb
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\bin\Debug\EntityFramework.dll
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\bin\Debug\EntityFramework.SqlServer.dll
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\bin\Debug\EntityFramework.xml
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\bin\Debug\EntityFramework.SqlServer.xml
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.AssemblyReference.cache
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\obj\Debug\MainWindow.baml
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\obj\Debug\Vk&Tg.baml
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\obj\Debug\Книга.baml
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\obj\Debug\MainWindow.g.cs
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\obj\Debug\Vk&Tg.g.cs
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\obj\Debug\Книга.g.cs
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\obj\Debug\Любимые_книги.g.cs
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\obj\Debug\Профиль.g.cs
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\obj\Debug\App.g.cs
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ_MarkupCompile.cache
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ_MarkupCompile.lref
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\obj\Debug\Любимые_книги.baml
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\obj\Debug\Профиль.baml
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.g.resources
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\obj\Debug\Десктоп_РПМ.Properties.Resources.resources
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.GenerateResource.cache
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.CoreCompileInputs.cache
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.CopyComplete
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.exe
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\obj\Debug\Десктоп РПМ.pdb
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\obj\Debug\AccWindow.g.cs
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\obj\Debug\AccWindow.baml
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\bin\Debug\System.Buffers.dll
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\bin\Debug\System.Memory.dll
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\bin\Debug\System.Numerics.Vectors.dll
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\bin\Debug\System.Text.Encodings.Web.dll
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\bin\Debug\System.Text.Json.dll
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\bin\Debug\System.ValueTuple.dll
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\bin\Debug\System.Buffers.xml
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\bin\Debug\System.Memory.xml
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\bin\Debug\System.Numerics.Vectors.xml
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\bin\Debug\System.Text.Encodings.Web.xml
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\bin\Debug\System.Text.Json.xml
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\bin\Debug\System.ValueTuple.xml

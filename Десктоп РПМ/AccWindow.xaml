@@ -1,0 +1,40 @@
+﻿<Window x:Class="Десктоп_РПМ.AccWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Десктоп_РПМ"
+        mc:Ignorable="d"
+        Title="AccWindow" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
+    <Grid Background="#FF00680A">
+        <Grid.ColumnDefinitions>
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="Email:" Margin="10,10,10,10" FontFamily="Comic Sans MS" Grid.ColumnSpan="2" Foreground="#FFFFA629" FontWeight="Bold" />
+        <TextBox Grid.Row="1" Name="txtEmail" Margin="10,0,10,0" VerticalAlignment="Center" FontFamily="Comic Sans MS" Grid.ColumnSpan="2" SelectionBrush="#FFFFA629" />
+
+        <TextBlock Grid.Row="2" Text="Username:" Margin="10,10,10,10" FontFamily="Comic Sans MS" Grid.ColumnSpan="2" Foreground="#FFFFA629" FontWeight="Bold"/>
+        <TextBox Grid.Row="3" Name="txtUsername" Margin="10,0,10,0" VerticalAlignment="Center" FontFamily="Comic Sans MS" Grid.ColumnSpan="2" SelectionBrush="#FFFFA629"/>
+
+        <TextBlock Grid.Row="4" Text="Password:" Margin="10,10,10,10" FontFamily="Comic Sans MS" Grid.ColumnSpan="2" Foreground="#FFFFA629" FontWeight="Bold"/>
+        <PasswordBox Grid.Row="5" Name="txtPassword" Margin="10,0,10,0" VerticalAlignment="Center" FontFamily="Comic Sans MS" Grid.ColumnSpan="2" SelectionBrush="#FFFFA629"/>
+
+        <StackPanel Grid.Row="6" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,51,0,-31" Width="128">
+            <Button Content="Login" Click="Login_Click" Margin="5" Width="54
+                " FontFamily="Comic Sans MS" BorderBrush="#FFFFA629"/>
+            <Button Content="Register" Click="Register_Click" Margin="5" Width="54" FontFamily="Comic Sans MS" BorderBrush="#FFFFA629"/>
+        </StackPanel>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="483,67,0,0" Grid.Row="6" VerticalAlignment="Top" Click="Button_Click"/>
+    </Grid>
+</Window>

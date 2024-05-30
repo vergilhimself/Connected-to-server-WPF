@@ -1,0 +1,174 @@
+﻿<Window
+    x:Class="Десктоп_РПМ.Книга"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Книга"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Window.Resources>
+        <Style x:Key="FocusVisual">
+            <Setter Property="Control.Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Rectangle
+                            Margin="2"
+                            SnapsToDevicePixels="true"
+                            Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"
+                            StrokeDashArray="1 2"
+                            StrokeThickness="1" />
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <SolidColorBrush x:Key="Button.Static.Background" Color="#FFDDDDDD" />
+        <SolidColorBrush x:Key="Button.Static.Border" Color="#FF707070" />
+        <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFBEE6FD" />
+        <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FF3C7FB1" />
+        <SolidColorBrush x:Key="Button.Pressed.Background" Color="#FFC4E5F6" />
+        <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF2C628B" />
+        <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4" />
+        <SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFADB2B5" />
+        <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FF838383" />
+
+        <Style x:Key="DefaultButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}" />
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background}" />
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}" />
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="HorizontalContentAlignment" Value="Center" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+            <Setter Property="Padding" Value="1" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border
+                            x:Name="border"
+                            Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}"
+                            SnapsToDevicePixels="true">
+                            <ContentPresenter
+                                x:Name="contentPresenter"
+                                Margin="{TemplateBinding Padding}"
+                                HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                                Focusable="False"
+                                RecognizesAccessKey="True"
+                                SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="true">
+                                <Setter TargetName="border" Property="BorderBrush" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}" />
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter TargetName="border" Property="Background" Value="{StaticResource Button.Disabled.Background}" />
+                                <Setter TargetName="border" Property="BorderBrush" Value="{StaticResource Button.Disabled.Border}" />
+                                <Setter TargetName="contentPresenter" Property="TextElement.Foreground" Value="{StaticResource Button.Disabled.Foreground}" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <DockPanel LastChildFill="True">
+        <DockPanel
+            Height="59.6"
+            Background="#FFFFA629"
+            DockPanel.Dock="Top"
+            LastChildFill="True">
+            <Border
+                Width="110"
+                Height="30"
+                Margin="10,0,10,0"
+                Background="#FF00680A"
+                BorderBrush="#FFCC8521"
+                BorderThickness="2"
+                CornerRadius="8"
+                DockPanel.Dock="Left">
+                <Button
+                    Width="105"
+                    Height="26"
+                    Background="#FF00680A"
+                    BorderBrush="{x:Null}"
+                    BorderThickness="2"
+                    Click="Button_Click"
+                    Content="Вернуться"
+                    Cursor="Hand"
+                    DockPanel.Dock="Left"
+                    FontFamily="Comic Sans MS"
+                    FontSize="16"
+                    Foreground="White"
+                    Style="{DynamicResource DefaultButtonStyle}" />
+            </Border>
+            <Border
+                Width="110"
+                Height="30"
+                Margin="10,0,10,0"
+                Background="#FF00680A"
+                BorderBrush="#FFCC8521"
+                BorderThickness="2"
+                CornerRadius="8"
+                DockPanel.Dock="Right">
+                <Button
+                    Width="105"
+                    Background="#FF00680A"
+                    BorderBrush="{x:Null}"
+                    BorderThickness="2"
+                    Click="Button_Click_1"
+                    Content="Описание"
+                    Cursor="Hand"
+                    DockPanel.Dock="Left"
+                    FontFamily="Comic Sans MS"
+                    FontSize="16"
+                    Foreground="White"
+                    Style="{DynamicResource DefaultButtonStyle}" />
+            </Border>
+            <Button
+                Width="50"
+                Height="50"
+                Background="#FFFFA629"
+                BorderBrush="{x:Null}"
+                Click="heart_Click"
+                Cursor="Hand"
+                DockPanel.Dock="Right"
+                Foreground="{x:Null}"
+                Style="{DynamicResource DefaultButtonStyle}">
+                <Button.Content>
+                    <Path
+                        Name="heartbutton"
+                        Width="46.1"
+                        Height="46.1"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Data="M1262 4830 c-319 -40 -586 -171 -812 -399 -203 -204 -325 -420 -395 -701 -124 -487 -34 -967 264 -1418 191 -289 438 -554                         891 -958 288 -257 1167 -1007 1210 -1032 40 -24 55 -27 140 -27 85 0 100 3 140 27 43 25 924 776 1210 1032 455 406 700 670 891                         958 298 451 388 931 264 1418 -70 281 -192 497 -395 701 -202 203 -418 320 -701 380 -142 30 -404 33 -528 5 -346 -75 -611 -248                         -853 -556 l-28 -35 -27 35 c-239 302 -500 475 -833 551 -99 23 -327 33 -438 19z m334 -305 c284 -50 529 -214 723 -485 33 -47 74                         -103 90 -126 74 -104 228 -104 302 0 16 23 57 79 90 126 265 370 634 544 1036 489 446 -61 794 -373 927 -832 105 -363 59 -744                          -132 -1087 -160 -287 -427 -588 -892 -1005 -225 -201 -1171 -1015 -1180 -1015 -10 0 -952 811 -1180 1015 -715 641 -997 1041                          -1065 1510 -44 303 19 629 172 886 230 387 678 599 1109 524z"
+                        Fill="Black"
+                        RenderTransformOrigin="0.5,0.5"
+                        Stretch="Fill">
+                        <Path.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleX="-1" ScaleY="-1" />
+                                <SkewTransform />
+                                <RotateTransform />
+                                <TranslateTransform />
+                            </TransformGroup>
+                        </Path.RenderTransform>
+                    </Path>
+                </Button.Content>
+            </Button>
+            <Label
+                Name="label"
+                FontFamily="Comic Sans MS"
+                FontSize="36"
+                Foreground="#FF00680A" />
+        </DockPanel>
+        <ScrollViewer>
+            <TextBox Name="textbox" IsEnabled="False" Width="790" Text="-" />
+        </ScrollViewer>
+    </DockPanel>
+</Window>
