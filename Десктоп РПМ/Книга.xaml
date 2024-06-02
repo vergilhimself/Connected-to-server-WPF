@@ -168,7 +168,7 @@
                 Foreground="#FF00680A" />
         </DockPanel>
         <ScrollViewer>
-            <TextBox Name="textbox" IsEnabled="False" Width="790" Text="-" />
+            <TextBox Name="textbox" IsEnabled="False" Width="790" Text="-" TextAlignment="Justify" TextWrapping="WrapWithOverflow" MaxLength="2147483647" />
         </ScrollViewer>
     </DockPanel>
 </Window>

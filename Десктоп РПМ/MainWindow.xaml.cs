@@ -99,25 +99,32 @@ namespace Десктоп_РПМ
                 mainpage.Children.Clear();
                 using (UserContext db = new UserContext())
                 {
-                    if (ApiClass.ApiFavoriteBooks == null) await ApiClass.GetFavoriteBooks();
-                    List<FavoriteBooks> favbooks = JsonSerializer.Deserialize<List<FavoriteBooks>>(ApiClass.ApiFavoriteBooks);
-                    var favoriteBookIds = favbooks
-                            .Where(f => f.Email == Account.Email)
-                            .Select(f => f.BookId)
-                            .ToList();
+                    await ApiClass.GetFavoriteBooks();
+                    if (ApiClass.ApiFavoriteBooks == "{\"message\":\"No favorite books found.\"}")
+                    {
+                        MessageBox.Show($"Нет избранных книг!");
+                    }
+                    else
+                    {
+                        List<FavoriteBooks> favbooks = JsonSerializer.Deserialize<List<FavoriteBooks>>(ApiClass.ApiFavoriteBooks);
+                        var favoriteBookIds = favbooks
+                                .Where(f => f.Email == Account.Email)
+                                .Select(f => f.BookId)
+                                .ToList();
 
-                    if (ApiClass.ApiBooks == null) await ApiClass.GetBooks();
-                    List<Book> books = JsonSerializer.Deserialize<List<Book>>(ApiClass.ApiBooks);
-                    var favoriteBooks = books
-                            .Where(b => favoriteBookIds
-                            .Contains(b.BookId))
-                            .ToList();
+                        if (ApiClass.ApiBooks == null) await ApiClass.GetBooks();
+                        List<Book> books = JsonSerializer.Deserialize<List<Book>>(ApiClass.ApiBooks);
+                        var favoriteBooks = books
+                                .Where(b => favoriteBookIds
+                                .Contains(b.BookId))
+                                .ToList();
 
-                    CreateBooks(favoriteBooks);
+                        CreateBooks(favoriteBooks);
+                    }
                 }
             }
             catch (Exception ex)
-            {
+            {               
                 MessageBox.Show($"Ошибка при загрузке избранных книг: {ex.Message}");
             }
         }

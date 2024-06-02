@@ -195,3 +195,51 @@ D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\bin\Debug\System.Te
 D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\bin\Debug\System.Text.Json.xml
 D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\Мусор\Саша с БД2\РПМ\Десктоп РПМ\bin\Debug\System.ValueTuple.xml
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\bin\Debug\Десктоп РПМ.exe.config
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\bin\Debug\Десктоп РПМ.exe
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\bin\Debug\Десктоп РПМ.pdb
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\bin\Debug\EntityFramework.dll
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\bin\Debug\System.Buffers.dll
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\bin\Debug\System.Memory.dll
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\bin\Debug\System.Text.Json.dll
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\bin\Debug\System.ValueTuple.dll
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\bin\Debug\EntityFramework.xml
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\bin\Debug\System.Buffers.xml
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\bin\Debug\System.Memory.xml
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\bin\Debug\System.Text.Json.xml
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\bin\Debug\System.ValueTuple.xml
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.AssemblyReference.cache
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\obj\Debug\MainWindow.baml
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\obj\Debug\Vk&Tg.baml
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\obj\Debug\Книга.baml
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\obj\Debug\AccWindow.g.cs
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\obj\Debug\MainWindow.g.cs
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\obj\Debug\Vk&Tg.g.cs
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\obj\Debug\Книга.g.cs
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\obj\Debug\Любимые_книги.g.cs
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\obj\Debug\Профиль.g.cs
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\obj\Debug\App.g.cs
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\obj\Debug\Десктоп РПМ_MarkupCompile.cache
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\obj\Debug\Десктоп РПМ_MarkupCompile.lref
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\obj\Debug\AccWindow.baml
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\obj\Debug\Любимые_книги.baml
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\obj\Debug\Профиль.baml
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\obj\Debug\Десктоп РПМ.g.resources
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\obj\Debug\Десктоп_РПМ.Properties.Resources.resources
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.GenerateResource.cache
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.CoreCompileInputs.cache
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\obj\Debug\Десктоп РПМ.csproj.CopyComplete
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\obj\Debug\Десктоп РПМ.exe
+C:\Users\fidan\OneDrive\Рабочий стол\Connected to server WPF\Десктоп РПМ\obj\Debug\Десктоп РПМ.pdb

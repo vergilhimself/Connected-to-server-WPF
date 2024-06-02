@@ -35,6 +35,5 @@
                 " FontFamily="Comic Sans MS" BorderBrush="#FFFFA629"/>
             <Button Content="Register" Click="Register_Click" Margin="5" Width="54" FontFamily="Comic Sans MS" BorderBrush="#FFFFA629"/>
         </StackPanel>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="483,67,0,0" Grid.Row="6" VerticalAlignment="Top" Click="Button_Click"/>
     </Grid>
 </Window>
