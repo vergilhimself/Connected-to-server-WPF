@@ -8,7 +8,6 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace Десктоп_РПМ
 {
@@ -20,7 +19,7 @@ namespace Десктоп_РПМ
             InitializeComponent();
             ShowAllBooks();
         }
-        private void CreateBooks (List<Book> books)
+        private void CreateBooks(List<Book> books)
         {
             mainpage.Children.Clear();
             foreach (var book in books)
@@ -85,7 +84,7 @@ namespace Десктоп_РПМ
         {
             await ApiClass.GetBooks();
             List<Book> books = JsonSerializer.Deserialize<List<Book>>(ApiClass.ApiBooks);
-            CreateBooks(books);         
+            CreateBooks(books);
         }
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
@@ -95,7 +94,7 @@ namespace Десктоп_РПМ
             try
             {
                 navigate.Text = "> Любимые книги";
-                mainpage.Visibility = Visibility.Visible;              
+                mainpage.Visibility = Visibility.Visible;
                 mainpage.Children.Clear();
                 using (UserContext db = new UserContext())
                 {
@@ -124,7 +123,7 @@ namespace Десктоп_РПМ
                 }
             }
             catch (Exception ex)
-            {               
+            {
                 MessageBox.Show($"Ошибка при загрузке избранных книг: {ex.Message}");
             }
         }
@@ -163,7 +162,7 @@ namespace Десктоп_РПМ
             try
             {
                 navigate.Text = "> " + genre;
-                mainpage.Visibility = Visibility.Hidden;               
+                mainpage.Visibility = Visibility.Hidden;
                 if (ApiClass.ApiBooks == null) await ApiClass.GetBooks();
                 List<Book> books = JsonSerializer.Deserialize<List<Book>>(ApiClass.ApiBooks);
                 var genreBooks = books.Where(b => b.Genre.ToLower() == genre.ToLower()).ToList();
@@ -191,7 +190,7 @@ namespace Десктоп_РПМ
         }
         private void LoadBooks(string searchQuery = "")
         {
-            
+
         }
         private async void SearchButton_Click(object sender, RoutedEventArgs e)
         {
@@ -222,6 +221,13 @@ namespace Десктоп_РПМ
             Vk_Tg taskWindow = new Vk_Tg();
             taskWindow.Owner = this;
             taskWindow.Show();
+        }
+
+        private void Profile_Click(object sender, RoutedEventArgs e)
+        {
+            Профиль taskWindow = new Профиль();
+            taskWindow.Show();
+            this.Close();
         }
     }
 }
