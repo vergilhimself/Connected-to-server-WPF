@@ -39,20 +39,23 @@ namespace Десктоп_РПМ
            
             label.Content = this.Title;
             textbox.Text = this.Text;
-            if (ApiClass.ApiFavoriteBooks == null) await ApiClass.GetFavoriteBooks();
+            await ApiClass.GetFavoriteBooks();
 
-            /*List<FavoriteBooks> favbooks = JsonSerializer.Deserialize<List<FavoriteBooks>>(ApiClass.ApiFavoriteBooks);
-            var count = favbooks.Where(f => f.BookId == this.Id && f.Email == Account.Email).ToList().Count();
-            Console.WriteLine(count);
-            if (count > 0)
+            
+            if (ApiClass.ApiFavoriteBooks != "{\"message\":\"No favorite books found.\"}")
             {
-                heartbutton.Fill = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FF00680A"));
+                List<FavoriteBooks> favbooks = JsonSerializer.Deserialize<List<FavoriteBooks>>(ApiClass.ApiFavoriteBooks);
+                var count = favbooks.Where(f => f.BookId == this.Id && f.Email == Account.Email).ToList().Count();
+                Console.WriteLine(count);
+                if (count > 0)
+                {
+                    heartbutton.Fill = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FF00680A"));
+                }
+                else
+                {
+                    heartbutton.Fill = Brushes.Black;
+                }
             }
-            else
-            {
-                heartbutton.Fill = Brushes.Black;
-            }
-            textbox.Text = Text;*/
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
